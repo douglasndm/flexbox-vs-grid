@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+div#flexbox{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.row{
+    padding-bottom: 10px;
+}
+
+button{
+    cursor: pointer;
+    background-color: #7159c1;
+    color: white;
+    font-size: 48pt;
+    padding: 10px;
+    border: 0;
+
+    width: 100px;
+
+    transition: background 0.2s;
+}
+button:hover{
+    background-color: blueviolet;
+}
+
+
